@@ -1,5 +1,7 @@
 package com.microsoft.codepush.react;
 
+import android.os.Build;
+
 import org.json.JSONObject;
 
 import java.io.BufferedInputStream;
@@ -11,6 +13,8 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.ByteBuffer;
+
+import javax.net.ssl.HttpsURLConnection;
 
 public class CodePushUpdateManager {
 

@@ -1,3 +1,16 @@
+package com.microsoft.codepush.react;
+
+import java.io.IOException;
+import java.net.InetAddress;
+import java.net.Socket;
+import java.net.UnknownHostException;
+import java.security.KeyManagementException;
+import java.security.NoSuchAlgorithmException;
+
+import javax.net.ssl.SSLContext;
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLSocketFactory;
+
 public class TLSSocketFactory extends SSLSocketFactory {
 
     private SSLSocketFactory delegate;
