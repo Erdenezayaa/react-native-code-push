@@ -179,7 +179,7 @@ public class CodePushUpdateManager {
                     }
                 }
             }
-            connection = (HttpURLConnection) (downloadUrl.openConnection());
+            connection = (HttpsURLConnection) (downloadUrl.openConnection());
             connection.setRequestProperty("Accept-Encoding", "identity");
             bin = new BufferedInputStream(connection.getInputStream());
 
