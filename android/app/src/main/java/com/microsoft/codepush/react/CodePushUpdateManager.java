@@ -13,6 +13,7 @@ import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.ByteBuffer;
+import com.microsoft.codepush.TLSSocketFactory;
 
 import javax.net.ssl.HttpsURLConnection;
 
